@@ -1,0 +1,29 @@
+title: CS Path
+description: A self-taught data engineer's structured CS curriculum
+baseurl: "/cs-path"
+url: "https://ionut-ml.github.io"
+
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+# Theme settings
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+
+# Navigation
+nav_sort: order  # use nav_order front matter
+
+# Footer
+footer_content: "Built with ❤️ by <a href=\"https://github.com/ionut-ml\">ionut-ml</a> · Free CS resources only"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Exclude from build
+exclude:
+  - "*.sh"
+  - "Gemfile.lock"
+  - "README.md"
