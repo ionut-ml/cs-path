@@ -3,7 +3,7 @@
   (function() {
     var saved = localStorage.getItem('jtd-theme');
     var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    var theme = saved || (prefersDark ? 'dark' : 'light');
+    var theme = saved || (prefersDark ? 'dark' : 'default');
     if (typeof jtd !== 'undefined') { jtd.setTheme(theme); }
     document.documentElement.setAttribute('data-theme', theme);
   })();

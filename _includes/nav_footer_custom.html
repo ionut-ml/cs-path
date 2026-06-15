@@ -31,30 +31,33 @@
 </div>
 
 <script>
-  (function() {
-    function getTheme() {
-      return localStorage.getItem('jtd-theme') ||
-        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  jtd.onReady(function() {
+    var btn   = document.getElementById('theme-toggle');
+    var icon  = document.getElementById('theme-icon');
+    var label = document.getElementById('theme-label');
+
+    function updateButton(theme) {
+      icon.textContent  = theme === 'dark' ? '☀️' : '🌙';
+      label.textContent = theme === 'dark' ? 'Light mode' : 'Dark mode';
     }
 
-    function applyTheme(theme) {
-      if (typeof jtd !== 'undefined') { jtd.setTheme(theme); }
-      document.documentElement.setAttribute('data-theme', theme);
-      localStorage.setItem('jtd-theme', theme);
-      var icon  = document.getElementById('theme-icon');
-      var label = document.getElementById('theme-label');
-      if (icon)  icon.textContent  = theme === 'dark' ? '☀️' : '🌙';
-      if (label) label.textContent = theme === 'dark' ? 'Light mode' : 'Dark mode';
+    // Apply saved theme on load (use 'default' for light, 'dark' for dark)
+    var saved = localStorage.getItem('jtd-theme');
+    if (saved) {
+      jtd.setTheme(saved);
+      updateButton(saved);
+    } else {
+      // No saved preference — reflect current state from jtd
+      updateButton(jtd.getTheme());
     }
 
-    // Set correct label on load
-    applyTheme(getTheme());
-
-    var btn = document.getElementById('theme-toggle');
-    if (btn) {
-      btn.addEventListener('click', function() {
-        applyTheme(getTheme() === 'dark' ? 'light' : 'dark');
-      });
-    }
-  })();
+    btn.addEventListener('click', function() {
+      var current = jtd.getTheme(); // 'default' or 'dark'
+      var next    = current === 'dark' ? 'default' : 'dark';
+      jtd.setTheme(next);
+      localStorage.setItem('jtd-theme', next);
+      updateButton(next);
+    });
+  });
 </script>
+
