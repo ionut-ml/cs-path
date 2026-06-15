@@ -28,9 +28,9 @@ After reading, build the HTTP server to apply what you learned.
 
 ## 🎥 Key Videos
 
-- Beej's Lecture on Sockets (if available)
-- Hussein Nasser — How HTTPS works
-- freeCodeCamp Networking full course
+- [Hussein Nasser — Networking fundamentals playlist](https://www.youtube.com/@hnasr/playlists)
+- [Hussein Nasser — How HTTPS works](https://www.youtube.com/watch?v=j9QmMEWmcfo)
+- [freeCodeCamp Computer Networking full course](https://www.youtube.com/watch?v=qiQR5rTSshw)
 
 ---
 

@@ -29,7 +29,7 @@ Build a minimal `git` implementation in Python. Teaches object storage, hashing,
 
 ## Quick Wins
 
-- Learn `tmux` — split your terminal, keep sessions alive
-- Learn `fzf` — fuzzy file finder, instant productivity boost  
-- Learn `ripgrep (rg)` — faster grep with smarter defaults
+- [tmux crash course](https://www.youtube.com/watch?v=DzNmUNvnB04) — split your terminal, keep sessions alive
+- [`fzf` fuzzy finder](https://github.com/junegunn/fzf) — fuzzy file finder, instant productivity boost  
+- [`ripgrep (rg)`](https://github.com/BurntSushi/ripgrep) — faster grep with smarter defaults
 

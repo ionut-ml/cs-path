@@ -27,11 +27,11 @@ If you skip the prerequisites, you'll memorize APIs without understanding anythi
 
 ## 🎥 Key Videos
 
-- Andrej Karpathy: micrograd (backprop from scratch)
-- Andrej Karpathy: makemore series
-- Andrej Karpathy: Let's build GPT
-- StatQuest ML series (statistics foundation)
-- 3Blue1Brown: Neural Networks series
+- [Andrej Karpathy: micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0) (backprop from scratch)
+- [Andrej Karpathy: makemore series](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+- [Andrej Karpathy: Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+- [StatQuest ML series](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) (statistics foundation)
+- [3Blue1Brown: Neural Networks series](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 ## 🏗 Advanced Project
 

@@ -25,9 +25,9 @@ Run this in parallel from day one if you work in data. You'll recognize patterns
 
 ## 🎥 Key Videos
 
-- DataTalksClub DE Zoomcamp lectures
-- Fundamentals of Data Engineering (Reis/Housley) overview talks
-- Airflow, dbt, Spark tutorials you already have saved
+- [DataTalksClub DE Zoomcamp lectures](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+- [Fundamentals of Data Engineering — Joe Reis talk](https://www.youtube.com/watch?v=PdWzRqCT_Zo)
+- [Apache Airflow full course (freeCodeCamp)](https://www.youtube.com/watch?v=K9AnJ9_ZAXE)
 
 ---
 

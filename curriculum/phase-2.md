@@ -33,9 +33,9 @@ Teaches: file I/O, terminal control, data structures, memory management.
 
 ## 🎥 Key Videos
 
-- Low Level Learning channel (C and systems)
-- CS50 Shorts on pointers and memory (5–10 min each)
-- Molly Rocket / Casey Muratori — performance-aware programming
+- [Low Level Learning channel](https://www.youtube.com/@LowLevelLearning) (C and systems)
+- [CS50 Shorts: Pointers & Memory](https://www.youtube.com/playlist?list=PLhQjrBD2T383NR8m50s1bdVLnVpVGhNDW) (5–10 min each)
+- [Molly Rocket / Casey Muratori — Performance-Aware Programming](https://www.youtube.com/@MollyRocket)
 
 ---
 

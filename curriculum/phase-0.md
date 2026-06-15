@@ -25,9 +25,9 @@ Read 2–3 sections per week during phone time. Don't block Phase 1 waiting to f
 
 ## 🎥 Key Videos
 
-- MIT 18.06 Linear Algebra (Gilbert Strang)
-- StatQuest probability & statistics series
-- freeCodeCamp Calculus full course
+- [MIT 18.06 Linear Algebra (Gilbert Strang)](https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D)
+- [StatQuest probability & statistics series](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUiJyn)
+- [freeCodeCamp Calculus full course](https://www.youtube.com/watch?v=HfACrKJ_Y2w)
 
 ---
 

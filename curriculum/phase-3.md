@@ -24,9 +24,9 @@ VisuAlgo shows the animation. Classic CS Problems in Python lets you implement i
 
 ## 🎥 Key Videos
 
-- MIT 6.006 Introduction to Algorithms (first 5 lectures)
-- Abdul Bari Algorithms playlist
-- freeCodeCamp Data Structures full course
+- [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY) (first 5 lectures)
+- [Abdul Bari Algorithms playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+- [freeCodeCamp Data Structures full course](https://www.youtube.com/watch?v=RBSGKlAvoiM)
 
 ---
 

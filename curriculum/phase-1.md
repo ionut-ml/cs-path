@@ -38,9 +38,9 @@ Download the hardware simulator → work through chapters 1–6.
 
 ## 🎥 Key Videos
 
-- Exploring How Computers Work (Sebastian Lague) — 20 min, excellent first watch
-- Ben Eater: How does a CPU work? — full series
-- Digital Design & Computer Architecture (ETH Zurich)
+- [Exploring How Computers Work (Sebastian Lague)](https://www.youtube.com/watch?v=QZwneRb-zqA) — 20 min, excellent first watch
+- [Ben Eater: How does a CPU work?](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU) — full series
+- [Digital Design & Computer Architecture (ETH Zurich)](https://www.youtube.com/playlist?list=PL5Q2soXY2Zi9OhoVQBXYFIZywZXCPl4M_)
 
 ---
 

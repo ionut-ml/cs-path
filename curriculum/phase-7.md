@@ -32,8 +32,8 @@ Follow cstack's tutorial. 13 parts. Each part is self-contained (30–60 min eac
 
 ## 🎥 Key Videos
 
-- CMU 15-445 Database Systems (Andy Pavlo) — Lecture 1–5
-- freeCodeCamp Relational Databases full course
+- [CMU 15-445 Database Systems (Andy Pavlo)](https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTef5_) — Lecture 1–5
+- [freeCodeCamp Relational Databases full course](https://www.youtube.com/watch?v=wR0jg0eQsZA)
 
 ---
 

@@ -28,9 +28,9 @@ You'll understand Python at a deeper level. You'll understand why some code is s
 
 ## 🎥 Key Videos
 
-- Programming Paradigms (Stanford, Lecture 1–5)
-- CS50 Compilers short
-- Tsoding Daily — writing a compiler in C
+- [Programming Paradigms (Stanford)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02) — Lecture 1–5
+- [CS50 Shorts playlist](https://www.youtube.com/playlist?list=PLhQjrBD2T383NR8m50s1bdVLnVpVGhNDW) — search for Compilers
+- [Tsoding Daily — writing a compiler in C](https://www.youtube.com/@TsodingDaily)
 
 ---
 
