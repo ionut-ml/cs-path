@@ -25,7 +25,7 @@ If you skip the prerequisites, you'll memorize APIs without understanding anythi
 | Understanding Machine Learning (Shalev) | Free PDF, rigorous ML theory | [→](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/) |
 | Hands-On LLMs | Practical LLMs, leverages your Python skills | [→](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) |
 
-## 🎥 Key Videos (from your Watch Later list)
+## 🎥 Key Videos
 
 - Andrej Karpathy: micrograd (backprop from scratch)
 - Andrej Karpathy: makemore series

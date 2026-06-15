@@ -24,7 +24,7 @@ You'll recognize patterns from your daily work — use that as an anchor for the
 
 - **Data Engineering Zoomcamp** — free, structured, hands-on [→](https://github.com/DataTalksClub/data-engineering-zoomcamp)
 
-## 🎥 Key Videos (from your Watch Later list)
+## 🎥 Key Videos
 
 - DataTalksClub DE Zoomcamp lectures
 - Fundamentals of Data Engineering (Reis/Housley) overview talks

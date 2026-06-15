@@ -7,7 +7,7 @@
 
 ## The Big Picture
 
-You write **Markdown files** (`.md`) — the same format as the files in `~/watch-later/`.  
+You write **Markdown files** (`.md`) — the same format used in this project.  
 GitHub converts them into a real website automatically.  
 You never write HTML, CSS, or JavaScript unless you want to.
 

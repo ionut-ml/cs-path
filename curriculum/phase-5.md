@@ -30,7 +30,7 @@ You'll understand Python at a deeper level. You'll understand why some code is s
 
 - Programming Paradigms (Stanford, Lecture 1–5)
 - CS50 Compilers short
-- Tsoding Daily — writing a compiler in C (from your Watch Later list)
+- Tsoding Daily — writing a compiler in C
 
 ---
 

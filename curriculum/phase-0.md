@@ -23,7 +23,7 @@ Read 2–3 sections per week during phone time. Don't block Phase 1 waiting to f
 | Interactive Linear Algebra (UBC) | Clean visual LA textbook | [→](https://personal.math.ubc.ca/~tbjw/ila/index2.html) |
 | Stanford CS109 Probability | Probability for CS — free slides+notes | [→](https://web.stanford.edu/class/archive/cs/cs109/cs109.1236/) |
 
-## 🎥 Key Videos (from your Watch Later list)
+## 🎥 Key Videos
 
 - MIT 18.06 Linear Algebra (Gilbert Strang)
 - StatQuest probability & statistics series
