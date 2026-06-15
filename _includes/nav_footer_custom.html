@@ -19,46 +19,32 @@
   }
 </style>
 
+<script>
+function csToggleTheme(btn) {
+  var l = document.querySelector('link[href*="just-the-docs-"]');
+  var isDark = l.href.indexOf('-dark.css') > -1;
+  var next = isDark ? 'default' : 'dark';
+  l.href = '/cs-path/assets/css/just-the-docs-' + next + '.css';
+  localStorage.setItem('jtd-theme', next);
+  btn.textContent = next === 'dark' ? '\u2600\uFE0F Light' : '\uD83C\uDF19 Dark';
+}
+</script>
+
 <div class="theme-toggle-wrap">
-  <button id="theme-toggle">🌙 Dark mode</button>
+  <button id="theme-toggle" onclick="csToggleTheme(this)">🌙 Dark</button>
 </div>
 
 <script>
-(function() {
-  var CSS_BASE = '/cs-path/assets/css/just-the-docs-';
-
-  function getLink() {
-    return document.querySelector('link[href*="just-the-docs-"]');
-  }
-
-  function getCurrentTheme() {
-    var link = getLink();
-    if (!link) return 'default';
-    return link.getAttribute('href').indexOf('-dark.css') !== -1 ? 'dark' : 'default';
-  }
-
-  function applyTheme(theme) {
-    var link = getLink();
-    if (link) link.setAttribute('href', CSS_BASE + theme + '.css');
-    localStorage.setItem('jtd-theme', theme);
+  // Fix label to match current theme on page load
+  (function() {
+    var l = document.querySelector('link[href*="just-the-docs-"]');
     var btn = document.getElementById('theme-toggle');
-    if (btn) btn.textContent = theme === 'dark' ? '☀️ Light mode' : '🌙 Dark mode';
-  }
-
-  // Apply saved preference on load
-  var saved = localStorage.getItem('jtd-theme');
-  var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  applyTheme(saved || (prefersDark ? 'dark' : 'default'));
-
-  // Wire up button
-  var btn = document.getElementById('theme-toggle');
-  if (btn) {
-    btn.addEventListener('click', function() {
-      applyTheme(getCurrentTheme() === 'dark' ? 'default' : 'dark');
-    });
-  }
-})();
+    if (l && btn) {
+      btn.textContent = l.href.indexOf('-dark.css') > -1 ? '\u2600\uFE0F Light' : '\uD83C\uDF19 Dark';
+    }
+  })();
 </script>
+
 
 
 
