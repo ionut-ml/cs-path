@@ -6,10 +6,9 @@ nav_order: 3
 
 # Phase S — Data Engineering
 
-## Your Professional Lane
+## Directly Applicable Phase
 
-Run this phase **in parallel from day one**. It directly applies to your job.  
-You'll recognize patterns from your daily work — use that as an anchor for the theory.
+Run this in parallel from day one if you work in data. You'll recognize patterns from daily work — use that as an anchor for the theory.
 
 ---
 

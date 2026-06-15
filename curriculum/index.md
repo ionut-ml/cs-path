@@ -42,7 +42,7 @@ Phase S (DE)    ─── parallel from day one (your professional lane)
 
 | Icon | Meaning |
 |------|---------|
-| 📱 | Phone-friendly — read on your commute |
+| 📱 | Phone-friendly — read during commute or downtime |
 | 🏗 | Project — build on weekends |
 | 🎥 | Video — watch in short sessions |
 | 📖 | Book — deeper reference |

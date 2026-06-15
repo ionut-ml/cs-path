@@ -19,15 +19,9 @@ It's short, interactive, and explains how code actually runs on hardware. No pri
 Go to [nand2tetris.org](https://www.nand2tetris.org/course), download the hardware simulator, and complete **Chapter 1 exercises**.  
 The chapter is self-contained. You can finish it in one session.
 
-### 3. Browser Cleanup — Whenever (20 min)
-Close ~150 non-CS tabs. Categories to purge:
-
-| Category | Action |
-|----------|--------|
-| Finance/Investing (RO) ~35 tabs | Keep 2–3 sites, close rest |
-| Fitness ~31 tabs | Keep 1 bookmark, close rest |
-| Travel ~30 tabs | Export to a notes app |
-| BJJ ~7 tabs | Keep 1, close rest |
+### 3. Declutter Your Browser — Whenever (20 min)
+If you have a backlog of saved tabs related to CS learning, now is a good time to triage them.  
+Keep only the resources that match the phases in this curriculum. Close the rest — they create mental noise.
 
 **Bookmark these 5 URLs on your phone:**
 1. [cpu.land](https://cpu.land)
@@ -41,36 +35,32 @@ Close ~150 non-CS tabs. Categories to purge:
 ## The Core Principle
 
 > Avoid long uninterrupted lectures.  
-> You've tried CS50 full lectures before and couldn't finish — that's normal for a parent with a job.  
+> Long-form video courses are hard to finish when life gets in the way.  
 > **Atomic text sessions on the phone (30 min) + hands-on builds on weekends (1–2 hrs).**  
-> Progress compounds — one cpu.land level today beats zero CS50 lectures this month.
+> Progress compounds — one cpu.land level today beats zero lectures this month.
 
 ---
 
 ## What NOT to Do
 
-- ❌ Don't start with a long course (CS50 full lectures, OSSU full track) — you'll stall
+- ❌ Don't start with a long course (full lecture series) — you'll stall when life interrupts
 - ❌ Don't jump to AI/ML before building systems fundamentals
 - ❌ Don't start multiple projects simultaneously — finish one before starting the next
-- ❌ Don't skip the C phase — it unlocks OS, networking, compilers, and ML (llm.c)
+- ❌ Don't skip the C phase — it unlocks OS, networking, compilers, and ML
 
 ---
 
-## Your Context (written once, preserved forever)
+## Who This Curriculum Is For
 
-- **Role:** Self-taught Data Engineer, Python background
-- **Goal:** Solid CS & Software Engineering foundations
-- **Time:** ~30 min weekdays (phone) · 1–2 hrs weekends (laptop)
-- **Constraints:** Family first. Free resources only.
-- **Prior attempts:** CS50 full lectures — stalled. Short/atomic content works better.
-- **Frameworks:** teachyourselfcs.com order + OSSU as completeness checklist
+- Working professionals with limited but consistent study time
+- Developers without a formal CS background who want solid foundations
+- People who have tried long courses before and couldn't finish them
+- Free resources only — no paid subscriptions required
 
 ---
 
 ## Where to Go Next
 
-Once you've done the three actions above:
-
 → [Phase 1: Computer Architecture](curriculum/phase-1) — your first real phase  
 → [Daily Reading Plan](plans/daily-reading) — what to read on your phone today  
-→ [Weekend Projects](plans/weekend-projects) — what to build this weekend  
+→ [Weekend Projects](plans/weekend-projects) — what to build this weekend

@@ -5,16 +5,15 @@ nav_order: 1
 
 # 🎓 CS Self-Study Path
 
-> A self-taught Data Engineer's structured journey through Computer Science foundations.  
-> Built on free resources only. Designed for 30 min/day on a phone + 1–2 hrs weekends.
+> A structured CS curriculum for working professionals — free resources, atomic sessions, real projects.
 
 ---
 
 ## Who this is for
 
-- You already know Python and work in software/data
+- You work in software or data and want to fill the gaps in your foundations
 - You want a solid CS foundation, not just tutorials
-- You have limited time (family, job) but long-term commitment
+- You have limited time but long-term commitment
 - You want to use **free resources only**
 
 ---
@@ -59,7 +58,7 @@ Both agree on the same core subjects. This path adapts them to real-world time c
 | 8 | AI / Machine Learning | udlbook + Karpathy videos |
 | 9 | Software Engineering | System Design Primer |
 | 10 | Security & RE | OpenSecurityTraining2 |
-| S | Data Engineering | DE Zoomcamp (your professional lane) |
+| S | Data Engineering | DE Zoomcamp |
 
 → [See full curriculum with resources](curriculum/)
 

@@ -8,8 +8,7 @@ nav_order: 11
 
 ## Your Professional Lane
 
-As a Data Engineer, you interact with databases daily.  
-This phase gives you the internals — B-trees, paging, transactions — that make you dangerous.
+If you work with data, this phase gives you the internals — B-trees, paging, transactions — that make you dangerous.
 
 ---
 
