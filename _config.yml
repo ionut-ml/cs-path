@@ -27,3 +27,8 @@ exclude:
   - "*.sh"
   - "Gemfile.lock"
   - "README.md"
+  - "TECH_NOTES.md"
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
