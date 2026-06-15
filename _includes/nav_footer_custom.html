@@ -16,48 +16,49 @@
     font-size: 0.85rem;
     width: 100%;
     justify-content: center;
-    transition: background 0.2s;
-  }
-  #theme-toggle:hover {
-    background: var(--sidebar-color, rgba(0,0,0,0.05));
   }
 </style>
 
 <div class="theme-toggle-wrap">
-  <button id="theme-toggle" aria-label="Toggle dark/light mode">
-    <span id="theme-icon">🌙</span>
-    <span id="theme-label">Dark mode</span>
-  </button>
+  <button id="theme-toggle">🌙 Dark mode</button>
 </div>
 
 <script>
-  jtd.onReady(function() {
-    var btn   = document.getElementById('theme-toggle');
-    var icon  = document.getElementById('theme-icon');
-    var label = document.getElementById('theme-label');
+(function() {
+  var CSS_BASE = '/cs-path/assets/css/just-the-docs-';
 
-    function updateButton(theme) {
-      icon.textContent  = theme === 'dark' ? '☀️' : '🌙';
-      label.textContent = theme === 'dark' ? 'Light mode' : 'Dark mode';
-    }
+  function getLink() {
+    return document.querySelector('link[href*="just-the-docs-"]');
+  }
 
-    // Apply saved theme on load (use 'default' for light, 'dark' for dark)
-    var saved = localStorage.getItem('jtd-theme');
-    if (saved) {
-      jtd.setTheme(saved);
-      updateButton(saved);
-    } else {
-      // No saved preference — reflect current state from jtd
-      updateButton(jtd.getTheme());
-    }
+  function getCurrentTheme() {
+    var link = getLink();
+    if (!link) return 'default';
+    return link.getAttribute('href').indexOf('-dark.css') !== -1 ? 'dark' : 'default';
+  }
 
+  function applyTheme(theme) {
+    var link = getLink();
+    if (link) link.setAttribute('href', CSS_BASE + theme + '.css');
+    localStorage.setItem('jtd-theme', theme);
+    var btn = document.getElementById('theme-toggle');
+    if (btn) btn.textContent = theme === 'dark' ? '☀️ Light mode' : '🌙 Dark mode';
+  }
+
+  // Apply saved preference on load
+  var saved = localStorage.getItem('jtd-theme');
+  var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  applyTheme(saved || (prefersDark ? 'dark' : 'default'));
+
+  // Wire up button
+  var btn = document.getElementById('theme-toggle');
+  if (btn) {
     btn.addEventListener('click', function() {
-      var current = jtd.getTheme(); // 'default' or 'dark'
-      var next    = current === 'dark' ? 'default' : 'dark';
-      jtd.setTheme(next);
-      localStorage.setItem('jtd-theme', next);
-      updateButton(next);
+      applyTheme(getCurrentTheme() === 'dark' ? 'default' : 'dark');
     });
-  });
+  }
+})();
 </script>
+
+
 

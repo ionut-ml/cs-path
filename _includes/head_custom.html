@@ -4,7 +4,7 @@
     var saved = localStorage.getItem('jtd-theme');
     var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     var theme = saved || (prefersDark ? 'dark' : 'default');
-    if (typeof jtd !== 'undefined') { jtd.setTheme(theme); }
-    document.documentElement.setAttribute('data-theme', theme);
+    var link = document.querySelector('link[href*="just-the-docs-"]');
+    if (link) link.setAttribute('href', '/cs-path/assets/css/just-the-docs-' + theme + '.css');
   })();
 </script>
