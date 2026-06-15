@@ -140,3 +140,25 @@ nav_order: 5
 - [ ] DE Zoomcamp — Module 5 (Batch Processing)
 - [ ] DE Zoomcamp — Module 6 (Streaming)
 - [ ] Read DE Handbook — roadmap section
+
+---
+
+## Phase 9 — Software Engineering
+
+- [ ] Read System Design Primer — part 1 (scalability)
+- [ ] Read System Design 101 — API designs
+- [ ] Watch ArjanCodes SOLID principles in Python
+- [ ] Watch ByteByteGo system design fundamentals (3 videos)
+- [ ] Watch MIT 6.824 lecture 1
+- [ ] Apply TDD to one project from Phase 2–8
+
+---
+
+## Phase 10 — Security & Reverse Engineering
+
+- [ ] Read How to Secure a Linux Server (skim first)
+- [ ] Watch OpenSecurityTraining2 Arch 1001 — Lecture 1
+- [ ] Watch LiveOverflow Binary Exploitation — episodes 1–5
+- [ ] Complete 5 picoCTF binary challenges
+- [ ] Debug and step through one of your C programs in GDB
+- [ ] Reverse a beginner crackme from crackmes.one
