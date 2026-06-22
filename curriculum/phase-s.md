@@ -42,6 +42,7 @@ This phase is your professional lane. Start here alongside Phase 1 (UNIX) — yo
 <summary><strong>📖 Layer 1 — Go Deeper</strong></summary>
 
 - [Fundamentals of Data Engineering — Joe Reis talk](https://www.youtube.com/watch?v=PdWzRqCT_Zo)
+- [Data Engineering Principles: Build frameworks not pipelines — Gatis Seja (PyData)](https://www.youtube.com/watch?v=pzfgbSfzhXg) — the shift from tool tutorials to principled DE thinking
 - [Awesome Data Engineering curated list](https://github.com/igorbarinov/awesome-data-engineering)
 
 </details>

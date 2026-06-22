@@ -20,6 +20,8 @@ Game development is applied CS at its most demanding: real-time systems, perform
 | Resource | Why | Link |
 |----------|-----|------|
 | Casey Muratori — Performance-Aware Programming (2022) | Directly applicable to Phase 3 (C). How hardware-aware code actually works. Meticulous, no handwaving. | [→](https://www.youtube.com/@MollyRocket) |
+| Code a DOOM-like game engine from scratch in C | Best "first game engine" project — raycasting, C, from zero | [→](https://www.youtube.com/watch?v=p7f9p9nDsmc) |
+| The Cherno — Game Engine series | C++ game engine from scratch, production-quality thinking | [→](https://www.youtube.com/watch?v=JxIZbV_XjAs) |
 | Jonathan Blow — Compiler development streams | Language design and systems thinking from a game dev perspective | [→](https://www.youtube.com/@jblow888) |
 
 **On Handmade Hero:** Casey Muratori's full series (~800 episodes) of building a complete game from scratch in C is a reference library, not a course. **Do not start from episode 1 linearly.** Instead: search within it when you have a specific question (e.g., "how does Casey handle memory arenas" or "how does the game loop work"). It rewards targeted exploration.
@@ -35,6 +37,7 @@ Game development is applied CS at its most demanding: real-time systems, perform
 |----------|-----|------|
 | Game Programming Patterns (free online) | Design patterns specific to game dev. Excellent, free, readable. | [→](https://gameprogrammingpatterns.com/contents.html) |
 | Ray Tracing in One Weekend | Math + C — build a CPU ray tracer. Applies Phase 0 (linear algebra) directly. | [→](https://raytracing.github.io/books/RayTracingInOneWeekend.html) |
+| dr Jonas Birch — GUI in C from scratch (5h) | Build a full windowed GUI in C — no frameworks | [→](https://www.youtube.com/watch?v=wdSPqru3NDo) |
 | Handmade Hero — targeted episodes | When you have a specific question, search the [episode guide](https://hero.handmade.network/episode/code) | — |
 
 </details>

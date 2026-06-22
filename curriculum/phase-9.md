@@ -8,35 +8,45 @@ nav_order: 13
 
 ## Why This Phase?
 
-The previous phases teach you how things work. This phase teaches you how to build things that **last** — clean architecture, testing, code reviews, distributed systems thinking. Run it in parallel from Phase 2 onward; apply each concept as you build.
+The previous phases teach you how things work. This phase teaches you how to build things that **last** — performance-aware design, clean code that doesn't sacrifice speed, and distributed systems thinking. Run it in parallel from Phase 3 onward.
 
 ---
+
+<details open markdown="1">
+<summary><strong>🎯 Layer 0 — Must Do</strong></summary>
 
 ## 📱 Phone Reading
 
 | Resource | Why | Link |
 |----------|-----|------|
 | System Design Primer | The most complete free system design reference | [→](https://github.com/donnemartin/system-design-primer) |
-| System Design 101 | Visual explanations of system design concepts | [→](https://github.com/ByteByteGoHq/system-design-101) |
-| Awesome System Design | Curated list of system design resources | [→](https://github.com/ashishps1/awesome-system-design-resources) |
 | The Twelve-Factor App | Best practices for building maintainable software | [→](https://12factor.net/) |
-| SOLID Principles (simple explanation) | Clean code foundations | [→](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) |
+
+## 🎥 Must Watch
+
+- [Casey Muratori — "Clean" Code, Horrible Performance](https://www.youtube.com/watch?v=tD5NrevFtbU) — the best corrective to shallow clean-code dogma. 22 min. Watch before reading any "best practices" book.
+- [Brian Will — Object-Oriented Programming is Bad](https://www.youtube.com/watch?v=QM1iUe6IofM) — forces you to think, not just follow patterns.
+
+**Done when Layer 0 complete:** You've watched both videos and can argue both sides of the performance vs. readability tradeoff with real examples from your own code.
+
+</details>
 
 ---
+
+<details markdown="1">
+<summary><strong>📖 Layer 1 — Go Deeper</strong></summary>
+
+| Resource | Why | Link |
+|----------|-----|------|
+| System Design 101 | Visual explanations of system design concepts | [→](https://github.com/ByteByteGoHq/system-design-101) |
+| SOLID Principles (DigitalOcean) | Clean code foundations | [→](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) |
 
 ## 🎥 Key Videos
 
-- [Designing Data-Intensive Applications — talk by Martin Kleppmann](https://www.youtube.com/watch?v=fU9hR3kiOK0)
-- [ArjanCodes — SOLID principles in Python](https://www.youtube.com/watch?v=pTB30aXS77U)
-- [ArjanCodes — Clean code & refactoring](https://www.youtube.com/watch?v=eiDyK_ofPPM)
 - [ByteByteGo — System design fundamentals playlist](https://www.youtube.com/playlist?list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf)
-- [MIT 6.824 Distributed Systems (lecture 1)](https://www.youtube.com/watch?v=cQP8WApzIQQ)
-
----
+- [Designing Data-Intensive Applications — talk by Martin Kleppmann](https://www.youtube.com/watch?v=fU9hR3kiOK0)
 
 ## 🏗 Apply While Building
-
-There's no separate project for this phase — instead, apply these practices to everything you build in Phases 2–8:
 
 | Practice | Apply when |
 |----------|-----------|
@@ -44,6 +54,20 @@ There's no separate project for this phase — instead, apply these practices to
 | Document your design decisions | Before starting a new project |
 | Refactor after it works | After each completed feature |
 | Study existing codebases | SQLite source, Redis source, Git source |
+
+</details>
+
+---
+
+<details markdown="1">
+<summary><strong>🔬 Layer 2 — Distributed Systems</strong></summary>
+
+| Resource | Why | Link |
+|----------|-----|------|
+| MIT 6.824 Distributed Systems | The best graduate-level distributed systems course, free lectures | [→](https://www.youtube.com/watch?v=cQP8WApzIQQ) |
+| Awesome System Design | Curated resources for going deeper | [→](https://github.com/ashishps1/awesome-system-design-resources) |
+
+</details>
 
 ---
 

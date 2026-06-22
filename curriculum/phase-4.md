@@ -57,6 +57,7 @@ Don't memorize algorithms. **Understand why they exist** (what problem do they s
 
 - [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY) (first 5 lectures)
 - [Abdul Bari Algorithms playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+- [freeCodeCamp — Graph Theory Tutorial (6h)](https://www.youtube.com/watch?v=09_LlHjoEiY) — comprehensive graphs from a Google engineer; watch after BFS/DFS basics
 
 </details>
 
