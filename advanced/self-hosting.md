@@ -14,7 +14,7 @@ Running your own services teaches more about systems than reading about them. DN
 
 ---
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — First Services</strong></summary>
 
 | Resource | Why | Link |
@@ -29,7 +29,7 @@ Running your own services teaches more about systems than reading about them. DN
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Go Deeper</strong></summary>
 
 | Topic | Resource | Link |
@@ -43,7 +43,7 @@ Running your own services teaches more about systems than reading about them. DN
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>🔬 Layer 2 — Kubernetes Path</strong></summary>
 
 Run Kubernetes if you want to understand what your company's infrastructure does:
@@ -57,7 +57,7 @@ Run Kubernetes if you want to understand what your company's infrastructure does
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📺 Layer 3 — Community</strong></summary>
 
 - [r/selfhosted](https://www.reddit.com/r/selfhosted/) — what people are running and how

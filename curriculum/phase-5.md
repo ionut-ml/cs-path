@@ -14,7 +14,7 @@ This is the gap between "how a CPU works" (Phase 2) and "write C code" (Phase 3)
 
 ---
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Must Do</strong></summary>
 
 ## 📱 Phone Reading
@@ -39,7 +39,7 @@ This is the gap between "how a CPU works" (Phase 2) and "write C code" (Phase 3)
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Go Deeper</strong> &nbsp;(build a mini OS)</summary>
 
 ## 🏗 Project — xv6 (MIT teaching OS)
@@ -62,7 +62,7 @@ Start with the labs — they walk you through adding specific features to xv6, w
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>🔬 Layer 2 — Deep Dive</strong> &nbsp;(Linux kernel internals)</summary>
 
 | Resource | Why | Link |
@@ -76,7 +76,7 @@ Start with the labs — they walk you through adding specific features to xv6, w
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📺 Layer 3 — Big Series</strong></summary>
 
 - [core dumped](https://www.youtube.com/@CoreDumped) — Linux internals, ELF format, memory — meticulous, in-depth

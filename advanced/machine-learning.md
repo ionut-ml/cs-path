@@ -17,7 +17,7 @@ If you skip the prerequisites, you'll memorize APIs without understanding anythi
 
 ---
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Must Do (Karpathy path)</strong></summary>
 
 The Karpathy path builds deep understanding from first principles. Follow in sequence.
@@ -33,7 +33,7 @@ The Karpathy path builds deep understanding from first principles. Follow in seq
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Classical ML First</strong></summary>
 
 Karpathy shows you deep learning. But a data engineer needs to know when NOT to use it. Classical ML first.
@@ -48,7 +48,7 @@ Karpathy shows you deep learning. But a data engineer needs to know when NOT to 
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>🔬 Layer 2 — LLMs and Modern ML</strong></summary>
 
 | Resource | Why | Link |
@@ -60,7 +60,7 @@ Karpathy shows you deep learning. But a data engineer needs to know when NOT to 
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📺 Layer 3 — Big Series</strong></summary>
 
 - [3Blue1Brown: Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) — visual intuition before code

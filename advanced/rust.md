@@ -16,7 +16,7 @@ More concretely: the modern data engineering toolchain is increasingly Rust-nati
 
 ---
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Must Read</strong></summary>
 
 | Resource | Why | Link |
@@ -32,7 +32,7 @@ More concretely: the modern data engineering toolchain is increasingly Rust-nati
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Go Deeper</strong></summary>
 
 | Resource | Why | Link |
@@ -45,7 +45,7 @@ More concretely: the modern data engineering toolchain is increasingly Rust-nati
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>🔬 Layer 2 — Systems Programming in Rust</strong></summary>
 
 | Resource | Why | Link |

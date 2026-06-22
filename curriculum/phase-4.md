@@ -12,7 +12,7 @@ Don't memorize algorithms. **Understand why they exist** (what problem do they s
 
 ---
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Must Do</strong></summary>
 
 ## 📱 Phone Reading
@@ -44,7 +44,7 @@ Don't memorize algorithms. **Understand why they exist** (what problem do they s
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Go Deeper</strong></summary>
 
 | Resource | Why | Link |
@@ -62,7 +62,7 @@ Don't memorize algorithms. **Understand why they exist** (what problem do they s
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>🔬 Layer 2 — Deep Dive</strong></summary>
 
 | Resource | Why | Link |
@@ -74,7 +74,7 @@ Don't memorize algorithms. **Understand why they exist** (what problem do they s
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📺 Layer 3 — Big Series</strong></summary>
 
 - [freeCodeCamp Data Structures full course](https://www.youtube.com/watch?v=RBSGKlAvoiM) — 8-hour reference

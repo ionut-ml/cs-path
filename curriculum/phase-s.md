@@ -26,7 +26,7 @@ This phase is your professional lane. Start here alongside Phase 1 (UNIX) — yo
 
 ## S-1 — Foundations
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Must Read</strong></summary>
 
 | Resource | Why | Link |
@@ -38,7 +38,7 @@ This phase is your professional lane. Start here alongside Phase 1 (UNIX) — yo
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Go Deeper</strong></summary>
 
 - [Fundamentals of Data Engineering — Joe Reis talk](https://www.youtube.com/watch?v=PdWzRqCT_Zo)
@@ -50,7 +50,7 @@ This phase is your professional lane. Start here alongside Phase 1 (UNIX) — yo
 
 ## S-2 — SQL Mastery
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Must Do</strong></summary>
 
 SQL is not a simple language. Window functions, CTEs, recursive queries, and query planning are skills you use every day but may never have studied systematically.
@@ -65,7 +65,7 @@ SQL is not a simple language. Window functions, CTEs, recursive queries, and que
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Go Deeper</strong></summary>
 
 | Resource | Why | Link |
@@ -82,7 +82,7 @@ SQL is not a simple language. Window functions, CTEs, recursive queries, and que
 
 **This section addresses the "Spark errors are voodoo" problem directly.** The root cause is always the same: optimizing Spark requires understanding its *execution model*, not just the DataFrame API.
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Execution Model First</strong></summary>
 
 Before any Spark "tips", you need to understand how Spark actually runs your code:
@@ -104,7 +104,7 @@ Before any Spark "tips", you need to understand how Spark actually runs your cod
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Optimization Patterns</strong></summary>
 
 **The 5 most common PySpark performance problems (and fixes):**
@@ -135,7 +135,7 @@ spark.conf.set("spark.sql.adaptive.coalescePartitions.enabled", "true")
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>🔬 Layer 2 — Databricks-Specific</strong></summary>
 
 | Topic | Resource |
@@ -147,7 +147,7 @@ spark.conf.set("spark.sql.adaptive.coalescePartitions.enabled", "true")
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>📺 Layer 3 — Big Series</strong></summary>
 
 - [DataTalksClub DE Zoomcamp lectures](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
@@ -160,7 +160,7 @@ spark.conf.set("spark.sql.adaptive.coalescePartitions.enabled", "true")
 
 ## S-4 — Data Modeling & dbt
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Must Know</strong></summary>
 
 | Resource | Why | Link |
@@ -171,7 +171,7 @@ spark.conf.set("spark.sql.adaptive.coalescePartitions.enabled", "true")
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Go Deeper</strong></summary>
 
 | Topic | Resource |
@@ -186,7 +186,7 @@ spark.conf.set("spark.sql.adaptive.coalescePartitions.enabled", "true")
 
 ## S-5 — Streaming & Kafka
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Must Understand</strong></summary>
 
 | Resource | Why | Link |
@@ -204,7 +204,7 @@ spark.conf.set("spark.sql.adaptive.coalescePartitions.enabled", "true")
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Go Deeper</strong></summary>
 
 - Apache Flink or Spark Structured Streaming for stateful stream processing

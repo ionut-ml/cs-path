@@ -12,7 +12,7 @@ You use Arch Linux every day. Every phase that follows uses these tools. Learn t
 
 ---
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Must Do</strong> &nbsp;(start here — minimum viable for every other phase)</summary>
 
 ## 📱 Phone Reading
@@ -42,7 +42,7 @@ Build a minimal `git` implementation in Python. Teaches object storage, hashing,
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Go Deeper</strong> &nbsp;(shell scripting + system administration)</summary>
 
 ## Shell Scripting as a Language
@@ -77,7 +77,7 @@ Build a minimal `git` implementation in Python. Teaches object storage, hashing,
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>🔬 Layer 2 — Deep Dive</strong> &nbsp;(Linux internals)</summary>
 
 | Resource | Why | Link |
@@ -91,7 +91,7 @@ Build a minimal `git` implementation in Python. Teaches object storage, hashing,
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📺 Layer 3 — Big Series</strong> &nbsp;(return to when you want depth, not linearly)</summary>
 
 - [Luke Smith — Arch Linux and UNIX philosophy](https://www.youtube.com/@LukeSmithxyz) — opinionated but technically sound

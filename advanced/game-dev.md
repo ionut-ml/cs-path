@@ -14,7 +14,7 @@ Game development is applied CS at its most demanding: real-time systems, perform
 
 ---
 
-<details open>
+<details open markdown="1">
 <summary><strong>🎯 Layer 0 — Must Watch</strong></summary>
 
 | Resource | Why | Link |
@@ -28,7 +28,7 @@ Game development is applied CS at its most demanding: real-time systems, perform
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📖 Layer 1 — Structured Game Dev</strong></summary>
 
 | Resource | Why | Link |
@@ -41,7 +41,7 @@ Game development is applied CS at its most demanding: real-time systems, perform
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>🔬 Layer 2 — Graphics Programming</strong></summary>
 
 | Resource | Why | Link |
@@ -54,7 +54,7 @@ Game development is applied CS at its most demanding: real-time systems, perform
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>📺 Layer 3 — Deep Reference Series</strong></summary>
 
 - [Handmade Hero full archive](https://hero.handmade.network/episode/code) — 800+ episodes, treat as a searchable reference
