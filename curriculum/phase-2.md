@@ -1,16 +1,15 @@
 ---
-title: Phase 2 — Systems Programming in C
+title: Phase 2 — Computer Architecture
 parent: Curriculum
 nav_order: 6
 ---
 
-# Phase 2 — Systems Programming in C
+# Phase 2 — Computer Architecture
 
-## Why C?
+## Why This Phase?
 
-C is the language that unlocks everything else:
-OS internals, networking, compilers, databases, and even ML (see llm.c).  
-Beej's guide is free, phone-readable, and written for adults.
+Before writing systems code, you need a mental model of what the hardware does.  
+cpu.land takes 2 hours total. nand2tetris takes 6–8 weekends but is the most rewarding project in CS self-study.
 
 ---
 
@@ -18,37 +17,34 @@ Beej's guide is free, phone-readable, and written for adults.
 
 | Resource | Why | Link |
 |----------|-----|------|
-| Beej's Guide to C | Free, scrollable, best C intro for adults | [→](https://beej.us/guide/bgc/html/split/index.html) |
-| CS:APP (CMU) | THE systems textbook | [→](https://csapp.cs.cmu.edu/3e/home.html) |
-| Memory Allocators 101 | Write a simple malloc — great phone read | [→](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory) |
-| Low Level Programming University | Structured low-level roadmap | [→](https://github.com/gurugio/lowlevelprogramming-university) |
+| cpu.land | Interactive, 10–15 min per level, explains how code runs | [→](https://cpu.land/) |
+| Ben Eater's site | 8-bit computer explained in text + diagrams | [→](https://eater.net/) |
+| nand2tetris course page | Read chapter descriptions before each weekend | [→](https://www.nand2tetris.org/course) |
 
-## 🏗 Weekend Project — Build kilo (text editor in C)
+## 🏗 Weekend Project — Nand2Tetris Part 1
 
-~1000 lines of C. Build a working text editor in your terminal.  
-Teaches: file I/O, terminal control, data structures, memory management.  
-**Do this as your first real C project.**
+**The single best "how does it all work" experience in CS education.**
 
-[→ viewsourcecode.org/snaptoken/kilo](https://viewsourcecode.org/snaptoken/kilo/)
+Download the hardware simulator → work through chapters 1–6.
+
+| Chapter | Topic | Sessions |
+|---------|-------|---------|
+| 1 | Boolean Logic | 1 weekend |
+| 2 | Boolean Arithmetic | 1 weekend |
+| 3 | Sequential Logic | 1 weekend |
+| 4 | Machine Language | 1 weekend |
+| 5 | Computer Architecture | 1–2 weekends |
+| 6 | Assembler | 1–2 weekends |
 
 ## 🎥 Key Videos
 
-- [Low Level Learning channel](https://www.youtube.com/@LowLevelLearning) (C and systems)
-- [CS50 Shorts: Pointers & Memory](https://www.youtube.com/playlist?list=PLhQjrBD2T383NR8m50s1bdVLnVpVGhNDW) (5–10 min each)
-- [Molly Rocket / Casey Muratori — Performance-Aware Programming](https://www.youtube.com/@MollyRocket)
-
----
-
-## Reading Order
-
-1. Beej's C Ch 1–9 (variables → pointers) — pair with: start kilo steps 1–50
-2. Beej's C Ch 10–20 (structs, malloc, file I/O) — pair with: finish kilo
-3. Memory Allocators 101 — after you understand malloc
-4. CS:APP Ch 1–3 — for deeper systems understanding
+- [Exploring How Computers Work (Sebastian Lague)](https://www.youtube.com/watch?v=QZwneRb-zqA) — 20 min, excellent first watch
+- [Ben Eater: How does a CPU work?](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU) — full series
+- [Digital Design & Computer Architecture (ETH Zurich)](https://www.youtube.com/playlist?list=PL5Q2soXY2Zi9OhoVQBXYFIZywZXCPl4M_)
 
 ---
 
 ## Done when...
 
-You can write a C program that: uses malloc/free without leaking, reads/writes files, handles pointers without fear.
+You can explain: what a register is, how fetch-decode-execute works, what machine code is, what an assembler does.
 

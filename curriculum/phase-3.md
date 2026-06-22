@@ -1,15 +1,16 @@
 ---
-title: Phase 3 — Algorithms & Data Structures
+title: Phase 3 — Systems Programming in C
 parent: Curriculum
 nav_order: 7
 ---
 
-# Phase 3 — Algorithms & Data Structures
+# Phase 3 — Systems Programming in C
 
-## Approach
+## Why C?
 
-Don't memorize algorithms. **Understand why they exist** (what problem do they solve?) and **implement them** once.  
-VisuAlgo shows the animation. Classic CS Problems in Python lets you implement in a language you already know.
+C is the language that unlocks everything else:
+OS internals, networking, compilers, databases, and even ML (see llm.c).  
+Beej's guide is free, phone-readable, and written for adults.
 
 ---
 
@@ -17,31 +18,37 @@ VisuAlgo shows the animation. Classic CS Problems in Python lets you implement i
 
 | Resource | Why | Link |
 |----------|-----|------|
-| VisuAlgo | 15 min per algorithm — see it animate | [→](https://visualgo.net/en) |
-| Algorithm Visualizer | Code + animation side by side | [→](https://algorithm-visualizer.org/) |
-| Classic CS Problems in Python | Implement in Python, leverages your existing skills | [→](https://livebook.manning.com/book/classic-computer-science-problems-in-python/about-this-book/) |
-| Algorithms (USP) | Free textbook, phone-readable | [→](https://www.ime.usp.br/~algorithms/) |
+| Beej's Guide to C | Free, scrollable, best C intro for adults | [→](https://beej.us/guide/bgc/html/split/index.html) |
+| CS:APP (CMU) | THE systems textbook | [→](https://csapp.cs.cmu.edu/3e/home.html) |
+| Memory Allocators 101 | Write a simple malloc — great phone read | [→](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory) |
+| Low Level Programming University | Structured low-level roadmap | [→](https://github.com/gurugio/lowlevelprogramming-university) |
+
+## 🏗 Weekend Project — Build kilo (text editor in C)
+
+~1000 lines of C. Build a working text editor in your terminal.  
+Teaches: file I/O, terminal control, data structures, memory management.  
+**Do this as your first real C project.**
+
+[→ viewsourcecode.org/snaptoken/kilo](https://viewsourcecode.org/snaptoken/kilo/)
 
 ## 🎥 Key Videos
 
-- [MIT 6.006 Introduction to Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY) (first 5 lectures)
-- [Abdul Bari Algorithms playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
-- [freeCodeCamp Data Structures full course](https://www.youtube.com/watch?v=RBSGKlAvoiM)
+- [Low Level Learning channel](https://www.youtube.com/@LowLevelLearning) (C and systems)
+- [CS50 Shorts: Pointers & Memory](https://www.youtube.com/playlist?list=PLhQjrBD2T383NR8m50s1bdVLnVpVGhNDW) (5–10 min each)
+- [Molly Rocket / Casey Muratori — Performance-Aware Programming](https://www.youtube.com/@MollyRocket)
 
 ---
 
-## Order of Topics
+## Reading Order
 
-1. **Sorting** — Bubble, Merge, Quick (understand Big-O)
-2. **Linked List, Stack, Queue** — implement from scratch in Python
-3. **Binary Search Tree** — insert, search, delete
-4. **Hash Tables** — how Python dicts work under the hood
-5. **Graphs** — BFS, DFS, Dijkstra
-6. **Dynamic Programming** — start with Fibonacci, then classic problems
+1. Beej's C Ch 1–9 (variables → pointers) — pair with: start kilo steps 1–50
+2. Beej's C Ch 10–20 (structs, malloc, file I/O) — pair with: finish kilo
+3. Memory Allocators 101 — after you understand malloc
+4. CS:APP Ch 1–3 — for deeper systems understanding
 
 ---
 
 ## Done when...
 
-You can choose the right data structure for a problem and explain why.
+You can write a C program that: uses malloc/free without leaking, reads/writes files, handles pointers without fear.
 

@@ -1,39 +1,43 @@
 ---
-title: Phase 8 — AI & Machine Learning
+title: Phase 8 — Databases
 parent: Curriculum
 nav_order: 12
 ---
 
-# Phase 8 — AI & Machine Learning
+# Phase 8 — Databases
 
-## ⚠️ Prerequisites
+## Your Professional Lane
 
-**Do NOT start this phase without:**
-- Phase 0 (Math) — at least linear algebra and probability
-- Phase 3 (Algorithms) — you need Big-O intuition
-- Some Python fluency — you already have this ✓
-
-If you skip the prerequisites, you'll memorize APIs without understanding anything.
+If you work with data, this phase gives you the internals — B-trees, paging, transactions — that make you dangerous.
 
 ---
 
-## 📱 Phone Reading
+## 📱 Phone Reading + 🏗 Project (combined)
 
 | Resource | Why | Link |
 |----------|-----|------|
-| Understanding Deep Learning (Prince) | Free, modern, visually excellent textbook | [→](https://udlbook.github.io/udlbook/) |
-| Understanding Machine Learning (Shalev) | Free PDF, rigorous ML theory | [→](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/) |
-| Hands-On LLMs | Practical LLMs, leverages your Python skills | [→](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) |
+| cstack's SQLite Tutorial | Build SQLite from scratch in C. Best DB resource anywhere. | [→](https://cstack.github.io/db_tutorial/) |
+| Database Internals (blog) | Concise explanation of internals | [→](https://minami.bearblog.dev/database-internals/) |
+
+## 🏗 Weekend Project — Build SQLite
+
+Follow cstack's tutorial. 13 parts. Each part is self-contained (30–60 min each).
+
+| Parts | Topic |
+|-------|-------|
+| 1–4 | REPL, parsing SQL, basic insert/select |
+| 5–7 | Persistence, cursor abstraction |
+| 8–10 | B-tree structure |
+| 11–13 | B-tree splitting, leaf/internal nodes |
 
 ## 🎥 Key Videos
 
-- [Andrej Karpathy: micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0) (backprop from scratch)
-- [Andrej Karpathy: makemore series](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
-- [Andrej Karpathy: Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY)
-- [StatQuest ML series](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) (statistics foundation)
-- [3Blue1Brown: Neural Networks series](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [CMU 15-445 Database Systems (Andy Pavlo)](https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTef5_) — Lecture 1–5
+- [freeCodeCamp Relational Databases full course](https://www.youtube.com/watch?v=wR0jg0eQsZA)
 
-## 🏗 Advanced Project
+---
 
-- **llm.c (Karpathy)** — Train a GPT in pure C. The synthesis of everything. [→](https://github.com/karpathy/llm.c)
+## Done when...
+
+You understand why B-trees are used in databases, what "page" means in a database context, and what a WAL is.
 

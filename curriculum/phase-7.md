@@ -1,43 +1,40 @@
 ---
-title: Phase 7 — Databases
+title: Phase 7 — Networking
 parent: Curriculum
 nav_order: 11
 ---
 
-# Phase 7 — Databases
+# Phase 7 — Networking
 
-## Your Professional Lane
+## Approach
 
-If you work with data, this phase gives you the internals — B-trees, paging, transactions — that make you dangerous.
+Beej's Network Programming is your phone textbook — one chapter per session.  
+After reading, build the HTTP server to apply what you learned.
 
 ---
 
-## 📱 Phone Reading + 🏗 Project (combined)
+## 📱 Phone Reading
 
 | Resource | Why | Link |
 |----------|-----|------|
-| cstack's SQLite Tutorial | Build SQLite from scratch in C. Best DB resource anywhere. | [→](https://cstack.github.io/db_tutorial/) |
-| Database Internals (blog) | Concise explanation of internals | [→](https://minami.bearblog.dev/database-internals/) |
+| Beej's Guide to Network Programming | The gold standard. Free, scrollable. | [→](https://beej.us/guide/bgnet/) |
+| RFC 1180 (TCP/IP Tutorial) | Foundational RFC, short and surprisingly readable | [→](https://datatracker.ietf.org/doc/html/rfc1180) |
 
-## 🏗 Weekend Project — Build SQLite
+## 🏗 Projects
 
-Follow cstack's tutorial. 13 parts. Each part is self-contained (30–60 min each).
-
-| Parts | Topic |
-|-------|-------|
-| 1–4 | REPL, parsing SQL, basic insert/select |
-| 5–7 | Persistence, cursor abstraction |
-| 8–10 | B-tree structure |
-| 11–13 | B-tree splitting, leaf/internal nodes |
+1. **HTTP server from scratch** — parse requests, serve files, handle connections
+2. **Redis clone (build-your-own.org)** — key-value store + networking + data structures [→](https://build-your-own.org/redis/)
+3. **TCP/IP stack (level-ip)** — build the stack itself, advanced [→](https://github.com/saminiir/level-ip)
 
 ## 🎥 Key Videos
 
-- [CMU 15-445 Database Systems (Andy Pavlo)](https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTef5_) — Lecture 1–5
-- [freeCodeCamp Relational Databases full course](https://www.youtube.com/watch?v=wR0jg0eQsZA)
+- [Hussein Nasser — Networking fundamentals playlist](https://www.youtube.com/@hnasr/playlists)
+- [Hussein Nasser — How HTTPS works](https://www.youtube.com/watch?v=j9QmMEWmcfo)
+- [freeCodeCamp Computer Networking full course](https://www.youtube.com/watch?v=qiQR5rTSshw)
 
 ---
 
 ## Done when...
 
-You understand why B-trees are used in databases, what "page" means in a database context, and what a WAL is.
+You can write a TCP server in C that accepts connections, reads HTTP requests, and sends responses.
 

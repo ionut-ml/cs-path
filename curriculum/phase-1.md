@@ -1,50 +1,107 @@
 ---
-title: Phase 1 — Computer Architecture
+title: Phase 1 — UNIX & Arch Linux
 parent: Curriculum
 nav_order: 5
 ---
 
-# Phase 1 — Computer Architecture
+# Phase 1 — UNIX & Arch Linux
 
-## Why This Phase?
+## Why This Is Phase 1
 
-Before writing systems code, you need a mental model of what the hardware does.  
-cpu.land takes 2 hours total. nand2tetris takes 6–8 weekends but is the most rewarding project in CS self-study.
+You use Arch Linux every day. Every phase that follows uses these tools. Learn them first, once, properly — then they're invisible infrastructure for all the work ahead.
 
 ---
+
+<details open>
+<summary><strong>🎯 Layer 0 — Must Do</strong> &nbsp;(start here — minimum viable for every other phase)</summary>
 
 ## 📱 Phone Reading
 
 | Resource | Why | Link |
 |----------|-----|------|
-| cpu.land | Interactive, 10–15 min per level, explains how code runs | [→](https://cpu.land/) |
-| Ben Eater's site | 8-bit computer explained in text + diagrams | [→](https://eater.net/) |
-| nand2tetris course page | Read chapter descriptions before each weekend | [→](https://www.nand2tetris.org/course) |
+| The Art of Command Line | 30 min read. Every item is immediately useful. | [→](https://github.com/jlevy/the-art-of-command-line) |
+| Oh Shit, Git | Fix git mistakes in plain English. | [→](https://ohshitgit.com/) |
+| Arch Wiki: Pacman | The definitive pacman reference. | [→](https://wiki.archlinux.org/title/Pacman) |
+| Arch Wiki: Systemd | Everything about services, timers, journal. | [→](https://wiki.archlinux.org/title/Systemd) |
 
-## 🏗 Weekend Project — Nand2Tetris Part 1
+## 🏗 Project — Write Yourself a Git
 
-**The single best "how does it all work" experience in CS education.**
+Build a minimal `git` implementation in Python. Teaches object storage, hashing, branching internals.
 
-Download the hardware simulator → work through chapters 1–6.
+[→ wyag.thb.lt](https://wyag.thb.lt/) — ~2 weekends
 
-| Chapter | Topic | Sessions |
-|---------|-------|---------|
-| 1 | Boolean Logic | 1 weekend |
-| 2 | Boolean Arithmetic | 1 weekend |
-| 3 | Sequential Logic | 1 weekend |
-| 4 | Machine Language | 1 weekend |
-| 5 | Computer Architecture | 1–2 weekends |
-| 6 | Assembler | 1–2 weekends |
+## Quick Wins (do these now)
 
-## 🎥 Key Videos
+- Install and configure `fzf` — fuzzy finder that changes how you navigate [→](https://github.com/junegunn/fzf)
+- Install `ripgrep (rg)` — grep with sane defaults [→](https://github.com/BurntSushi/ripgrep)
+- Set up tmux — persistent sessions, split panes [→](https://www.youtube.com/watch?v=DzNmUNvnB04)
 
-- [Exploring How Computers Work (Sebastian Lague)](https://www.youtube.com/watch?v=QZwneRb-zqA) — 20 min, excellent first watch
-- [Ben Eater: How does a CPU work?](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU) — full series
-- [Digital Design & Computer Architecture (ETH Zurich)](https://www.youtube.com/playlist?list=PL5Q2soXY2Zi9OhoVQBXYFIZywZXCPl4M_)
+**Done when Layer 0 is complete:** You can navigate, search, manage processes, and fix git mistakes entirely from the terminal without reaching for a GUI.
+
+</details>
+
+---
+
+<details>
+<summary><strong>📖 Layer 1 — Go Deeper</strong> &nbsp;(shell scripting + system administration)</summary>
+
+## Shell Scripting as a Language
+
+| Resource | Why | Link |
+|----------|-----|------|
+| The Linux Command Line (Shotts) | Free book — shell scripting chapters (Part 4) | [→](https://linuxcommand.org/tlcl.php) |
+| Advanced Bash-Scripting Guide | Reference, not linear reading — search when stuck | [→](https://tldp.org/LDP/abs/html/) |
+| ShellCheck | Lints your shell scripts, teaches correct patterns | [→](https://www.shellcheck.net/) |
+
+## Arch Linux System Administration
+
+| Topic | Resource | Link |
+|-------|----------|------|
+| AUR + makepkg | Arch Wiki: AUR | [→](https://wiki.archlinux.org/title/Arch_User_Repository) |
+| Dotfiles management | Arch Wiki: Dotfiles | [→](https://wiki.archlinux.org/title/Dotfiles) |
+| systemd timers (cron replacement) | Arch Wiki: Systemd/Timers | [→](https://wiki.archlinux.org/title/Systemd/Timers) |
+| journalctl fluency | `journalctl -f`, `-u service`, `--since "1 hour ago"` | Arch Wiki |
+| Boot process | Arch Wiki: Arch boot process | [→](https://wiki.archlinux.org/title/Arch_boot_process) |
+
+## Debugging Tools
+
+| Tool | What it Does |
+|------|-------------|
+| `strace -p PID` | See every system call a process makes |
+| `lsof -p PID` | What files/sockets a process has open |
+| `ss -tuln` | Sockets in use (replacement for netstat) |
+| `perf stat ./program` | CPU performance counters |
+| `htop` / `btop` | Process tree with resource usage |
+
+</details>
+
+---
+
+<details>
+<summary><strong>🔬 Layer 2 — Deep Dive</strong> &nbsp;(Linux internals)</summary>
+
+| Resource | Why | Link |
+|----------|-----|------|
+| The Linux Programming Interface (Kerrisk) | The definitive Linux systems programming reference | [→](https://man7.org/tlpi/) |
+| Linux From Scratch | Build a complete Linux system from source | [→](https://www.linuxfromscratch.org/) |
+| Arch Wiki: Kernel | Compiling and configuring your own kernel | [→](https://wiki.archlinux.org/title/Kernel) |
+| `procfs` / `sysfs` exploration | `cat /proc/PID/maps`, `/proc/PID/fd/`, `/sys/` — read the running system | — |
+
+</details>
+
+---
+
+<details>
+<summary><strong>📺 Layer 3 — Big Series</strong> &nbsp;(return to when you want depth, not linearly)</summary>
+
+- [Luke Smith — Arch Linux and UNIX philosophy](https://www.youtube.com/@LukeSmithxyz) — opinionated but technically sound
+- [Chris Titus Tech — Linux configuration](https://www.youtube.com/@ChrisTitusTech) — practical Arch/Hyprland setups
+- [DistroTube](https://www.youtube.com/@DistroTube) — deep UNIX tool usage
+
+</details>
 
 ---
 
 ## Done when...
 
-You can explain: what a register is, how fetch-decode-execute works, what machine code is, what an assembler does.
-
+You write a shell script to automate something you do manually, it works without StackOverflow, and you understand what every line does.
